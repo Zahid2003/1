@@ -1,0 +1,71 @@
+
+
+.header{
+    width: 1300px;
+    height: 80px;
+    background: rgb(0, 255, 255);
+    margin: auto;
+    
+}
+.logo{
+    float: left;
+
+}
+.logo img{
+    width: 180px;
+    height: 50px;
+    padding: 30px;
+}
+.menu{
+    float: right;
+    
+}
+
+.menu span a{
+    text-decoration: none;
+    font-size: 25px;
+    padding-right: 20px;
+    float: none;
+    margin-right: 10px;
+}
+
+.slider{
+    width: 1600px;
+    height: 450px;
+    margin:  0 auto;
+    background:linear-gradient(rgba(21, 203, 219, 0.898),rgba(0,0,0,.6)),url(./images/zahid.png);
+    background-repeat: no-repeat;
+    background-size: fit;
+    
+}
+.slider h1{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    color: rgba(243, 237, 236, 0.999);
+    font-size: 30px;
+}
+.slider p{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: rgb(201, 221, 234);
+    font-size: px;
+}
+.slider a{
+    position: absolute;
+    left: 42%;
+    top: 50%;
+    text-decoration: none;
+    border: 2px solid whitesmoke;
+    padding: 0px 0px;
+    color: #d8dbe3;
+    font-size: 25px;
+    background-color: rgba(0, 60, 255, 0.105);
+    border-radius: 10px;
+
+
+
+
+   
+}

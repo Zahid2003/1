@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+
+}
+
+
+    
+
+.header{
+    width: 100px;
+    height: 80px;
+    background: rgb(0, 255, 255);
+    margin: auto;
+    
+}
+.logo{
+    float: left;
+
+}
+.logo img{
+    width: 180px;
+    height: 50px;
+    padding: 30px;
+}
+.menu{
+    float: right;
+    margin-top: 25px;
+}
+
+.menu span a{
+    text-decoration: none;
+    font-size: 25px;
+    padding-right: 20px;
+    float: none;
+    margin-right: 10px;
+}
+
+.slider{
+    width: 1200px;
+    height: 800px;
+    margin:  0 auto;
+    background:linear-gradient(#3221a5,rgba(0,0,0,.6)),url(./images/zahid.png);
+    background-repeat: no-repeat;
+    background-size: fit;
+    
+}
+.slider h1{
+    text-align: center;
+    color: rgba(243, 237, 236, 0.999);
+    font-size: 30px;
+}
+.slider p{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: rgb(201, 221, 234);
+    font-size: px;
+}
+.slider a{
+    position: absolute;
+    left: 42%;
+    top: 50%;
+    text-decoration: none;
+    border: 2px solid whitesmoke;
+    padding: 0px 0px;
+    color: #d70000e6;
+    font-size: 25px;
+    background-color: rgba(0, 60, 255, 0.105);
+    border-radius: 10px;
+
+}
+
+.hero{
+    width: 1200px;
+    margin: auto;
+    color: #2811d2;
+}
+.Service-title{
+    text-align: center;
+}
+.card img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid tomato;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.card{
+    background-color: rgb(59, 6, 90);
+    padding: 20px;
+}
+
+.service-box{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+.card a{
+    border: 1px solid rgb(221, 71, 255);
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;   
+    
+    
+
+}
